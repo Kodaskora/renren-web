@@ -19,6 +19,9 @@ export function Header() {
           <Link href='/services' className='hover:text-blue-600'>
             Paslaugos
           </Link>
+          <Link href='/order' className='hover:text-blue-600'>
+            Užsakymas
+          </Link>
           <Link href='/contact' className='hover:text-blue-600'>
             Kontaktai
           </Link>
@@ -59,6 +62,9 @@ export function Header() {
           </Link>
           <Link href='/services' className='block py-2'>
             Paslaugos
+          </Link>
+          <Link href='/order' className='block py-2'>
+            Užsakymas
           </Link>
           <Link href='/contact' className='block py-2'>
             Kontaktai
